@@ -38,7 +38,7 @@ end
 def play(board)
   play = 0
   until play == 9
-  if turn(board)
+  turn(board)
   play += 1
 end
 end
